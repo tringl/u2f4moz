@@ -1,10 +1,8 @@
-# U2F Support Firefox Extension [![Build Status](https://travis-ci.org/prefiks/u2f4moz.svg?branch=master)](https://travis-ci.org/prefiks/u2f4moz)
+# Tringl Support Firefox Extension 
 
-This extension adds support for the U2F specification with Yubico devices to Firefox.
+This extension adds support for the TringlF with Flashsafe devices to Firefox.
 
 It can be used by accessing window.u2f object from content pages.
-
-Install from https://addons.mozilla.org/firefox/addon/u2f-support-add-on/
 
 ## Build instructions ##
 
@@ -19,7 +17,7 @@ On OS X and Linux the u2f binary may lose its executable bit upon packaging XPI 
 It's possible to make XPI file manually by executing `cd ext; zip -9r ../u2f.xpi *` or
 included bash script `scripts/make-xpi.sh`, this way permissions in final file will be correct.
 
-## Enabling U2f on Yubico Neo and Neo-n ##
+## Enabling U2f in Tringl on Yubico Neo and Neo-n ##
 
 Those two devices didn't have U2F enabled by default before November 2015. For the older models, it requires manual configuration changes
 described described in this [document](http://yubi.co/unlockU2F). If you've purchased one recently, you won't have to do anything.
